@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Offers</title>
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+.style3 {
+	border-width: 0px;
+	text-align: left;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'../../../../../My Web Sites/phones.jpg')">
+
+<table style="width: 100%; height: 605px;">
+	<tr>
+		<td colspan="3">
+		<a href="main%20page.html">
+		<img alt="" class="style3" height="75" src="../../../../../My%20Web%20Sites/img1B.jpg" style="float: left" width="129" /><img alt="" class="style3" height="72" src="../../../../../My%20Web%20Sites/Home%20page%20button%201.1.jpg" width="114" /></a><a href="shoppage.html"><img alt="" class="style3" height="72" src="../../../../../My%20Web%20Sites/shop%20button%201.1.jpg" width="111" /></a><a href="offerspage.html"><img alt="" class="style3" height="73" src="../../../../../My%20Web%20Sites/offers%20button%201.1.jpg" width="107" /></a><a href="contactpage.html"><img alt="" class="style3" height="72" src="../../../../../My%20Web%20Sites/Contact%20button%201.1.jpg" width="96" /></a><a href="Help&supportpage.html"><img alt="" class="style3" height="72" src="../../../../../My%20Web%20Sites/Help%20&%20support%20button%201.1.jpg" width="107" /></a><a href="carerspage.html"><img alt="" class="style3" height="71" src="../../../../../My%20Web%20Sites/carers%20button%201.1.jpg" width="104" /></a><a href="Aboutuspage.html"><img alt="" class="style3" height="71" src="../../../../../My%20Web%20Sites/About%20us%20button%201.1.jpg" width="120" /></a><a href="Feedbackpage.html"><img alt="" class="style3" height="71" src="../../../../../My%20Web%20Sites/Feedback%20button%201.1.jpg" width="106" /></a></td>
+	</tr>
+	<tr>
+		<td rowspan="2" style="width: 36px">
+		<object id="flash1" data="../../../../../My%20Web%20Sites/Advert%202.3.swf" style="height: 551px; width: 180px" type="application/x-shockwave-flash">
+			<param name="movie" value="../../../../../My%20Web%20Sites/Advert%202.3.swf" />
+		</object>
+		</td>
+		<td class="style1" style="width: 1043px">
+		<img alt="" src="../../../../../My%20Web%20Sites/img33.jpg" id="img1" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../../../../../My Web Sites/phones.jpg')" /></td>
+		<td rowspan="2">
+		<object id="flash2" data="../../../../../My%20Web%20Sites/Advert%202.3.swf" style="height: 553px; width: 200px;" type="application/x-shockwave-flash">
+			<param name="movie" value="../../../../../My%20Web%20Sites/Advert%202.3.swf" />
+		</object>
+		</td>
+	</tr>
+	<tr>
+		<td class="style1" style="width: 1043px">
+		<img alt="" height="174" src="../../../../../My%20Web%20Sites/img34.jpg" width="714" /></td>
+	
+	</tr>
+</table>
+
+</body>
+
+</html>
